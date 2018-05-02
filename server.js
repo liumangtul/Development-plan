@@ -19,7 +19,7 @@ myEmitter.emit('event');
 server.listen(8080);
 */
 
-class Myemitter extends EventEmitter{};
+/*class Myemitter extends EventEmitter{};
 
 const myEmitter = new MyEmitter();
 
@@ -27,4 +27,4 @@ myEmitter.on('event',function(a,b){
    console.log(a,b,this);
 });
 
-myEmitter.emit('event','arg1','arg2');
+myEmitter.emit('event','arg1','arg2');*/
